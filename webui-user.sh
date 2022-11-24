@@ -21,6 +21,9 @@ export COMMANDLINE_ARGS=""
 # python3 venv without trailing slash (defaults to ${install_dir}/${clone_dir}/venv)
 #venv_dir="venv"
 
+# script to launch to start the app
+#export LAUNCH_SCRIPT="launch.py"
+
 # install command for torch
 #export TORCH_COMMAND="pip install torch==1.12.1+cu113 --extra-index-url https://download.pytorch.org/whl/cu113"
 
@@ -36,5 +39,8 @@ export COMMANDLINE_ARGS=""
 #export TAMING_TRANSFORMERS_COMMIT_HASH=""
 #export CODEFORMER_COMMIT_HASH=""
 #export BLIP_COMMIT_HASH=""
+
+# Uncomment to enable accelerated launch
+#export ACCELERATE="True"
 
 ###########################################
